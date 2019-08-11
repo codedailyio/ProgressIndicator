@@ -32,7 +32,7 @@ function App() {
           backgroundColor: complete ? "tomato" : "#FFF",
         }}
       >
-        <svg viewBox="0 0 50 50" width="600px" height="600px" className="circle-progress">
+        <svg viewBox="0 0 50 50" width="100%" height="100%" className="circle-progress">
           <circle
             className="progress"
             cx={DIAMETER / 2}
